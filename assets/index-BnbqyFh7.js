@@ -2825,4 +2825,4 @@ ${a}`,s=n.createShaderModule({code:o,label:e.name});R(`verbose`,()=>`[WebGPU] ${
                 <div class="results-placeholder-icon">🎤</div>
                 <p>Generated speech will appear here</p>
             </div>
-        `}finally{qd.disabled=!1}}window.downloadAudio=function(e,t){let n=document.createElement(`a`);n.href=e,n.download=t,n.click()},qd.addEventListener(`click`,of),window.addEventListener(`load`,async()=>{qd.disabled=!0,await af()}),document.addEventListener(`DOMContentLoaded`,function(){var e=document.getElementById(`app-version`);e&&(e.textContent=`1.3.0`)});
+        `}finally{qd.disabled=!1}}window.downloadAudio=function(e,t){let n=document.createElement(`a`);n.href=e,n.download=t,n.click()},qd.addEventListener(`click`,of),window.addEventListener(`load`,async()=>{qd.disabled=!0,await af()}),document.addEventListener(`DOMContentLoaded`,function(){var e=document.getElementById(`app-version`);e&&(e.textContent=`1.4.0`)});
