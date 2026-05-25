@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+
+# Disallow sensitive or non-public paths (uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/
+
 Sitemap: https://rizzlator.getlogix.com/sitemap.xml

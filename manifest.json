@@ -1,0 +1,21 @@
+{
+  "name": "Rizzlator Free Text-to-Speech App",
+  "short_name": "Rizzlator",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1420",
+  "theme_color": "#00fff7",
+  "description": "Rizzlator: A free Text-to-Speech App powered by AI voices.",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
