@@ -1,4 +1,239 @@
-Welcome to <b>Rizzlator</b>
-Your Multilingual free Text-to-Speech Web App powered by AI voices.
-Speak Any Language. Instantly.
-Cheers
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rizzlator - Free Text-to-Speech App</title>
+                <!-- SEO Meta Tags -->
+                <meta name="description" content="Rizzlator: A free Text-to-Speech App powered by AI voices. Instantly generate natural-sounding speech in multiple languages and voices.">
+                <meta name="keywords" content="text-to-speech, TTS, , speech synthesis, Free Text-to-Speech App, AI voices, Rizzlator">
+                <meta name="author" content="GetLogix Team">
+
+                <!-- Open Graph Meta Tags -->
+                <meta property="og:title" content="Rizzlator -  free Text-to-Speech App">
+                <meta property="og:description" content="Try Rizzlator: a web-based,  text-to-speech App powered by AI voices. Generate speech in multiple languages with various voice styles.">
+                <meta property="og:type" content="website">
+                <meta property="og:url" content="https://rizzlator.getlogix.com/">
+                <meta property="og:image" content="https://rizzlator.getlogix.com/assets/og-image.png">
+                <meta property="og:site_name" content="Rizzlator Free Text-to-Speech App">
+
+                <!-- Twitter Card Meta Tags -->
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:title" content="Rizzlator -  Free Text-to-Speech App">
+                <meta name="twitter:description" content="Try Rizzlator: a web-based,  text-to-speech App powered by AI voices. Generate speech in multiple languages with various voice styles.">
+                <meta name="twitter:image" content="https://rizzlator.getlogix.com/assets/og-image.png">
+
+                <!-- Structured Data (JSON-LD) -->
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebApplication",
+                    "name": "Rizzlator Free Text-to-Speech App",
+                    "url": "https://rizzlator.getlogix.com/",
+                    "description": "Rizzlator:  free Text-to-Speech App powered by AI voices.",
+                    "applicationCategory": "Speech Synthesis Application",
+                    "operatingSystem": "All",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "image": "https://rizzlator.getlogix.com/assets/og-image.png",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "GetLogix Team"
+                    }
+                }
+                </script>
+      <script type="module" crossorigin src="/assets/index-oOTuGAbS.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-DdTBl1ZR.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="logo-header" style="display:flex; align-items:center; gap:18px; margin-bottom: 10px;">
+                <img src="/assets/logo-C-Cs7seL.png" alt="Rizzlator Logo" style="height:94px; width:auto; display:inline-block; vertical-align:middle;">
+                <div>
+                    <h2 class="branding" >Rizzlator</h2>
+                    <p class="subtitle" style="text-align:right; margin:0;"> free Text-to-Speech App powered by AI voices.</p>
+                </div>
+            </div>
+           
+            
+
+            <div id="statusBox" class="status-box">
+                <div class="status-text-wrapper">
+                    <div id="statusText">ℹ️ <strong>Loading models...</strong>
+                        Please wait...</div>
+                </div>
+                <div id="backendBadge" class="backend-badge">WebAssembly</div>
+            </div>
+
+            <div class="main-content">
+                <div class="left-panel">
+                    <div class="section">
+                        <div class="ref-audio-label">
+                            <label for="voiceStyleSelect">Choose Voice Style: </label>
+                            <span id="voiceStyleInfo"
+                                class="ref-audio-info non-visible">Loading...</span>
+                        </div>
+                        
+
+                        <div class="voice-style-container">
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/M1.json" checked>
+        <img class="avatar" src="/assets/Ethan-DcR-pj19.svg" alt="Male 1">
+        <span>Ethan</span>
+    </label>
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/F2.json">
+        <img class="avatar" src="/assets/Lilly-D4Y9xd50.svg" alt="Female 2">
+        <span>Lilly</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/M2.json">
+        <img class="avatar" src="/assets/Jack-G73_iPv7.svg" alt="Male 2">
+        <span>Jack</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/M3.json">
+        <img class="avatar" src="/assets/John-BCqdctFt.svg" alt="Male 3">
+        <span>John</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/M4.json">
+        <img class="avatar" src="/assets/Lorin-BExWkaPo.svg" alt="Male 4">
+        <span>Lorin</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/M5.json">
+        <img class="avatar" src="/assets/Marcus-CcN_kEGA.svg" alt="Male 5">
+        <span>Marcus</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/F1.json">
+        <img class="avatar" src="/assets/Aira-Bsfq6Ka0.svg" alt="Female 1">
+        <span>Aira</span>
+    </label>
+
+    
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/F3.json">
+        <img class="avatar" src="/assets/Lumi-ChAhPQNk.svg" alt="Female 3">
+        <span>Lumi</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/F4.json">
+        <img class="avatar" src="/assets/Sasha-BRfKhJSm.svg" alt="Female 4">
+        <span>Sasha</span>
+    </label>
+
+    <label class="voice-card">
+        <input type="radio" name="voiceStyleRadio" value="assets/voice_styles/F5.json">
+        <img class="avatar" src="/assets/Jazz-BvPtWuzt.svg" alt="Female 5">
+        <span>Jazz</span>
+    </label>
+</div>
+                    </div>
+
+                    <div class="section hidden">
+                        <label for="langSelect">Language:</label>
+                        <select id="langSelect">
+                            <option value="en" selected>English (en)</option>
+                            <option value="ko">한국어 (ko)</option>
+                            <option value="ja">日本語 (ja)</option>
+                            <option value="ar">العربية (ar)</option>
+                            <option value="bg">Bulgarian (bg)</option>
+                            <option value="cs">Czech (cs)</option>
+                            <option value="da">Danish (da)</option>
+                            <option value="de">Deutsch (de)</option>
+                            <option value="el">Greek (el)</option>
+                            <option value="es">Español (es)</option>
+                            <option value="et">Estonian (et)</option>
+                            <option value="fi">Finnish (fi)</option>
+                            <option value="fr">Français (fr)</option>
+                            <option value="hi">Hindi (hi)</option>
+                            <option value="hr">Croatian (hr)</option>
+                            <option value="hu">Hungarian (hu)</option>
+                            <option value="id">Indonesian (id)</option>
+                            <option value="it">Italian (it)</option>
+                            <option value="lt">Lithuanian (lt)</option>
+                            <option value="lv">Latvian (lv)</option>
+                            <option value="nl">Dutch (nl)</option>
+                            <option value="pl">Polish (pl)</option>
+                            <option value="pt">Português (pt)</option>
+                            <option value="ro">Romanian (ro)</option>
+                            <option value="ru">Russian (ru)</option>
+                            <option value="sk">Slovak (sk)</option>
+                            <option value="sl">Slovenian (sl)</option>
+                            <option value="sv">Swedish (sv)</option>
+                            <option value="tr">Turkish (tr)</option>
+                            <option value="uk">Ukrainian (uk)</option>
+                            <option value="vi">Vietnamese (vi)</option>
+                        </select>
+                    </div>
+
+                    <div class="section">
+                        <label for="text">Text to Synthesize:</label>
+                        <textarea id="text"
+                            placeholder="Enter the text you want to convert to speech...">This morning, I took a walk in the park, and the sound of the birds and the breeze was so pleasant that I stopped for a long time just to listen.</textarea>
+                    </div>
+
+                    <div class="params-grid">
+                        <div class="section">
+                            <label for="totalStep">Total Steps (higher = better
+                                quality):</label>
+                            <input type="number" id="totalStep" value="8"
+                                min="1" max="50">
+                        </div>
+                        
+                        <div class="section">
+                            <label for="speed">Speed (0.9-1.5 recommended):</label>
+                            <input type="number" id="speed" value="1.05"
+                                min="0.5" max="2.0" step="0.05">
+                        </div>
+
+                    </div>
+
+                    <button id="generateBtn">Generate Speech</button>
+
+                    <div id="error" class="error"></div>
+                </div>
+
+                <div class="right-panel">
+                    <div id="results" class="results">
+                        <div class="results-placeholder">
+                            <div class="results-placeholder-icon">🎤</div>
+                            <p>Generated speech will appear here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; width:100%;">
+                <div class="footer-content-left" style="text-align:left;"><small>
+                    <p><small>Version <span id="app-version"></span></small></p>
+                    <p><small>© <span id="copyright-year"></span> GetLogix Inc. All rights reserved.</small></p>
+                </small></div>
+                <div class="footer-content-right" style="text-align:right;">
+                    <p>Made with ❤️ by <a href="https://www.getlogix.com" target="_blank">GetLogix Inc.</a></p>
+                    
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var yearSpan = document.getElementById('copyright-year');
+                    if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+                });
+            </script>
+        </footer>
+    </body>
+</html>
